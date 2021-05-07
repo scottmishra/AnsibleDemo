@@ -1,0 +1,14 @@
+---
+- name: Hello World Playbook
+  hosts: localhost
+  connection: local
+
+  vars:
+    hello_world_var: "Hello"
+    hello_world_dict:
+      msg: "world"
+
+  tasks:
+  - name: debug a var, should print Hello world
+    debug:
+      msg: "{{ hello_world_var }} {{ hello_world_dict.msg }}"

@@ -1,0 +1,5 @@
+---
+# tasks file for hello_world
+- name: debug a var, should print Hello world
+  debug:
+    msg: "{{ hello_world_var }} {{ hello_world_dict.msg }}"

@@ -1,0 +1,7 @@
+---
+- name: Hello World Playbook
+  hosts: localhost
+  connection: local
+
+  roles:
+  - role: hello_world

@@ -1,0 +1,4 @@
+---
+hello_world_var: "Hello"
+hello_world_dict:
+  msg: "world"
